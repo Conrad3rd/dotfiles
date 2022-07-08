@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = conrad.3rd@gmail.com
+	name = Conrad Esche

@@ -1,5 +1,12 @@
 ZSH=$HOME/.oh-my-zsh
 
+source /usr/share/rvm/scripts/rvm
+#source /usr/share/rvm/gems/ruby-3.1.2
+
+#rvm --default use 3.1.2
+
+
+
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
 
@@ -70,3 +77,6 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+nvm use 16.15.1
+rvm use 3.1.2
